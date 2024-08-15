@@ -1,0 +1,9 @@
+body{
+  background: rgb(255,122,207);
+  background: linear-gradient(90deg, rgba(255,122,207,1) 0%, rgba(255,228,245,1) 49%, rgba(255,122,207,1) 100%);
+  font-family: "Pacifico", cursive;
+  font-style: normal;
+}
+h5{
+  font-weight: 400;
+}
