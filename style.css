@@ -1,9 +1,30 @@
 body{
   background: rgb(255,122,207);
   background: linear-gradient(90deg, rgba(255,122,207,1) 0%, rgba(255,228,245,1) 49%, rgba(255,122,207,1) 100%);
-  font-family: "Pacifico", cursive;
-  font-style: normal;
 }
-h5{
-  font-weight: 400;
+.s1-title, .ily{
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+.s1-title{
+  font-weight: 500;
+  color: white; 
+  margin: 20px 0;
+}
+.ily{
+  color: pink;
+}
+
+.s1-caption{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 14px;
+  color: white; 
+  text-align: center;
+}
+.s1-from{
+  font-family: "Grey Qo", cursive;
+  padding-right: 30px;
+  color: cyan;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
