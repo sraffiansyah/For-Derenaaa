@@ -1,7 +1,9 @@
 body{
   background: rgb(255,122,207);
-  background: linear-gradient(90deg, rgba(255,122,207,1) 0%, rgba(255,228,245,1) 49%, rgba(255,122,207,1) 100%);
+  background: linear-gradient(90deg, rgb(255, 122, 206) 0%, rgba(255,228,245,1) 49%, rgba(255,122,207,1) 100%);
 }
+
+/* section 1 */
 .s1-title, .ily{
   font-family: "Pacifico", cursive;
   text-align: center;
@@ -27,4 +29,18 @@ body{
   color: cyan;
   font-size: 30px;
   margin-bottom: 20px;
+  text-decoration: underline;
+  text-underline-offset: 13px;
+}
+
+/* section 2 */
+.s2-top, .s2-bottom{
+  margin-top: 20px;
+}
+.s2-title-top{
+  font-family: "Pacifico", cursive;
+}
+.s2-desk{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-size: 17px;
 }
