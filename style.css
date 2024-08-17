@@ -34,7 +34,7 @@ body{
 }
 
 /* section 2 */
-.s2-top, .s2-bottom{
+.s2-top, .s2-mid, .s2-bottom{
   margin-top: 20px;
 }
 .s2-title-top{
@@ -43,4 +43,21 @@ body{
 .s2-desk{
   font-family: "Edu VIC WA NT Beginner", cursive;
   font-size: 17px;
+}
+
+/* section 3 */
+.s3-title{
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+.s3-desk{
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  text-align: center;
+}
+.s3-scnd-title{
+  top: 40px; 
+  z-index: 2; 
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  width: 100%;
 }
