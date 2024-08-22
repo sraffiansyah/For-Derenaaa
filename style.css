@@ -41,11 +41,13 @@ body{
 .s1-bottom{
   margin-top: -10px;
 }
-.s1-hugimg{
-  width: 70px; 
-  height: 70px; 
+.s1-cvrimg{
+  width: 25%;
   margin-left: 30px; 
   margin-bottom: 15px;
+}
+.s1-hugimg{
+  width: 100%;
 }
 .s1-from{
   font-family: var(--aesthetic);
