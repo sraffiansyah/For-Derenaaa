@@ -212,7 +212,7 @@ body{
 /* section 5 */
 .section5{
   margin: 30px 20px;
-  height: 37rem;
+  height: 35.5rem;
 }
 .s5-title{
   font-family: var(--handwritting);
@@ -245,4 +245,8 @@ body{
   right: 2.25rem;
 }
 
+/* Section 6 */
+.section6{
+  margin: 30px 20px;
+}
 
