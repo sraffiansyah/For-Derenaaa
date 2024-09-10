@@ -15,6 +15,7 @@ body{
 }
 .s1-bungkustext{
   width: 90%; 
+  height: 94%;
   background-color: rgba(0, 0, 0, 0.489); 
   left: 20px; 
   top: 20px;
@@ -34,7 +35,7 @@ body{
 
 .s1-caption{
   font-family: var(--handwritting);
-  font-size: 14px;
+  font-size: 13.5px;
   color: white; 
   text-align: center;
 }
@@ -42,7 +43,7 @@ body{
   margin-top: -10px;
 }
 .s1-cvrimg{
-  width: 25%;
+  width: 37%;
   margin-left: 30px; 
   margin-bottom: 15px;
 }
@@ -245,8 +246,88 @@ body{
   right: 2.25rem;
 }
 
-/* Section 6 */
-.section6{
-  margin: 30px 20px;
+/* section 6 */
+.section6 {
+  padding: 2rem;
 }
 
+.s6-title {
+  font-size: 2rem;
+  font-family: var(--title);
+  text-align: center;
+}
+
+.s6-caption {
+  font-family: var(--handwritting);
+  font-size: 0.64rem;
+  text-align: left;
+}
+
+.s6-thx {
+  font-family: var(--aesthetic);
+  font-size: 2rem;
+  text-align: right;
+}
+
+/* Ukuran Hp */
+@media (min-width: 320px) and (max-width: 330px){
+  .s1-title{
+    font-weight: 400;
+    font-size: 1em;
+  }
+  .s1-caption{
+    font-size: 0.72em;
+  }
+  .s1-cvrimg{
+    width: 30%;
+    margin-left: 25px; 
+    margin-bottom: 15px;
+  }
+  .s3-hdnimgnd{
+    margin-top: 9.2rem;
+  }
+  .section3{
+    height: 740px;
+    margin: 30px 20px;
+  }
+  .s4-title{
+    margin: 50px 0 0 35px;
+    font-size: 18px;
+  }
+  .s4-caption{
+    font-size: 8px;
+    margin: 5px 45px 0 67.5px;
+    line-height: 9.4px;
+  }
+}
+/* Yang agak gedean dikit */
+@media (min-width: 331px) and (max-width: 350px){
+  .s1-title{
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+  .s1-caption{
+    font-size: 0.80em;
+  }
+  .s1-cvrimg{
+    width: 34%;
+    margin-left: 25px; 
+    margin-bottom: 15px;
+  }
+  .s3-hdnimgnd{
+    margin-top: 9.8rem;
+  }
+  .section3{
+    height: 770px;
+    margin: 30px 20px;
+  }
+  .s4-title{
+    margin: 53px 0 0 30px;
+    font-size: 19px;
+  }
+  .s4-caption{
+    font-size: 9px;
+    margin: 5px 45px 0 67.5px;
+    line-height: 10px;
+  }
+}
